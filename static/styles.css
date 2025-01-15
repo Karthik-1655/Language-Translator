@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+.card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+textarea {
+    resize: none;
+}
+
+button#swapBtn {
+    font-size: 24px;
+    padding: 10px;
+}
+
+button#translateBtn {
+    background-color: #4a90e2;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button#translateBtn:hover {
+    background-color: #357ab7;
+}
+
+textarea[readonly] {
+    background-color: #e9ecef;
+    color: #212529;
+}
+
+
+#sourceVoiceInput, #targetCopy, #targetSpeak {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+}
